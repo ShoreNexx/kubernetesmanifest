@@ -19,7 +19,7 @@ spec:
         app: flaskdemo
     spec:
       containers:
-      - image: shorenex/test:16
+      - image: shorenex/gitops-test:latest
         name: flaskdemo
         resources: {}
 status: {}
